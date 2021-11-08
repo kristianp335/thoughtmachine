@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.4.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_4_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="com.liferay.kris.thoughtmachine">
+	<namespace>ThoughMachine</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+	<entity local-service="true" name="Training" remote-service="true" uuid="true">
+
+		<!-- PK fields -->
+
+		<column name="trainingId" primary="true" type="long" />
+
+		<!-- Group instance -->
+
+		<column name="groupId" type="long" />
+
+		<!-- Audit fields -->
+
+		<column name="companyId" type="long" />
+		<column name="userId" type="long" />
+		<column name="userName" type="String" />
+		<column name="createDate" type="Date" />
+		<column name="modifiedDate" type="Date" />
+
+		<!-- Other fields -->
+
+		<column name="organisation" type="long" />
+		<column name="courseName" type="String" />
+		<column name="courseStatus" type="String" />
+		<column name="courseProgression" type="int" />
+		<column name="coursePercentage" type="int" />
+		
+		
+		
+
+		<!-- Order -->
+
+		<order by="asc">
+			<order-column name="courseName" />
+		</order>
+
+		<!-- Finder methods -->
+
+		<finder name="Organisation" return-type="Collection">
+			<finder-column name="organisation" />
+		</finder>
+		<finder name="ByUser" return-type="Collection">
+			<finder-column name="userId" />
+		</finder>
+		
+		<finder name="ByUserStatus" return-type="Collection">
+			<finder-column name="userId" />
+			<finder-column name="courseStatus" />
+		</finder>
+		
+		<finder name="CourseNameCourseStatusOrganisation" return-type="Collection">
+			<finder-column name="courseName" />
+			<finder-column name="courseStatus" />
+			<finder-column name="organisation" />
+		</finder>
+		
+		<finder name="CourseNameOrganisation" return-type="Collection">
+			<finder-column name="courseName" />
+			<finder-column name="organisation" />
+		</finder>
+		
+
+		<!-- References -->
+
+		<reference entity="AssetEntry" package-path="com.liferay.portlet.asset" />
+		<reference entity="AssetTag" package-path="com.liferay.portlet.asset" />
+	</entity>
+</service-builder>

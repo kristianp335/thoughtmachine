@@ -1,0 +1,29 @@
+com/liferay/kris/thoughtmachine/service/impl/TrainingLocalServiceImpl.java
+ com.liferay.kris.thoughtmachine.service.impl.TrainingLocalServiceImpl
+com/liferay/kris/thoughtmachine/model/impl/TrainingModelImpl.java
+ com.liferay.kris.thoughtmachine.model.impl.TrainingModelImpl
+ com.liferay.kris.thoughtmachine.model.impl.TrainingModelImpl$EscapedModelProxyProviderFunctionHolder
+com/liferay/kris/thoughtmachine/service/base/TrainingLocalServiceBaseImpl.java
+ com.liferay.kris.thoughtmachine.service.base.TrainingLocalServiceBaseImpl
+ com.liferay.kris.thoughtmachine.service.base.TrainingLocalServiceBaseImpl$1
+ com.liferay.kris.thoughtmachine.service.base.TrainingLocalServiceBaseImpl$2
+ com.liferay.kris.thoughtmachine.service.base.TrainingLocalServiceBaseImpl$3
+com/liferay/kris/thoughtmachine/service/persistence/impl/constants/ThoughMachinePersistenceConstants.java
+ com.liferay.kris.thoughtmachine.service.persistence.impl.constants.ThoughMachinePersistenceConstants
+com/liferay/kris/thoughtmachine/model/impl/TrainingImpl.java
+ com.liferay.kris.thoughtmachine.model.impl.TrainingImpl
+com/liferay/kris/thoughtmachine/model/impl/TrainingCacheModel.java
+ com.liferay.kris.thoughtmachine.model.impl.TrainingCacheModel
+com/liferay/kris/thoughtmachine/model/impl/TrainingBaseImpl.java
+ com.liferay.kris.thoughtmachine.model.impl.TrainingBaseImpl
+com/liferay/kris/thoughtmachine/service/persistence/impl/TrainingPersistenceImpl.java
+ com.liferay.kris.thoughtmachine.service.persistence.impl.TrainingPersistenceImpl
+ com.liferay.kris.thoughtmachine.service.persistence.impl.TrainingPersistenceImpl$TrainingModelArgumentsResolver
+com/liferay/kris/thoughtmachine/service/http/TrainingServiceSoap.java
+ com.liferay.kris.thoughtmachine.service.http.TrainingServiceSoap
+com/liferay/kris/thoughtmachine/service/base/TrainingServiceBaseImpl.java
+ com.liferay.kris.thoughtmachine.service.base.TrainingServiceBaseImpl
+com/liferay/kris/thoughtmachine/service/impl/TrainingServiceImpl.java
+ com.liferay.kris.thoughtmachine.service.impl.TrainingServiceImpl
+com/liferay/kris/thoughtmachine/service/http/TrainingServiceHttp.java
+ com.liferay.kris.thoughtmachine.service.http.TrainingServiceHttp

@@ -1,0 +1,31 @@
+com/liferay/kris/thoughtmachine/model/TrainingWrapper.java
+ com.liferay.kris.thoughtmachine.model.TrainingWrapper
+com/liferay/kris/thoughtmachine/service/TrainingLocalServiceWrapper.java
+ com.liferay.kris.thoughtmachine.service.TrainingLocalServiceWrapper
+com/liferay/kris/thoughtmachine/service/persistence/TrainingPersistence.java
+ com.liferay.kris.thoughtmachine.service.persistence.TrainingPersistence
+com/liferay/kris/thoughtmachine/service/TrainingLocalService.java
+ com.liferay.kris.thoughtmachine.service.TrainingLocalService
+com/liferay/kris/thoughtmachine/exception/NoSuchTrainingException.java
+ com.liferay.kris.thoughtmachine.exception.NoSuchTrainingException
+com/liferay/kris/thoughtmachine/model/TrainingSoap.java
+ com.liferay.kris.thoughtmachine.model.TrainingSoap
+com/liferay/kris/thoughtmachine/model/TrainingTable.java
+ com.liferay.kris.thoughtmachine.model.TrainingTable
+com/liferay/kris/thoughtmachine/model/TrainingCompletedUser.java
+ com.liferay.kris.thoughtmachine.model.TrainingCompletedUser
+com/liferay/kris/thoughtmachine/model/TrainingModel.java
+ com.liferay.kris.thoughtmachine.model.TrainingModel
+com/liferay/kris/thoughtmachine/service/TrainingLocalServiceUtil.java
+ com.liferay.kris.thoughtmachine.service.TrainingLocalServiceUtil
+com/liferay/kris/thoughtmachine/model/Training.java
+ com.liferay.kris.thoughtmachine.model.Training
+ com.liferay.kris.thoughtmachine.model.Training$1
+com/liferay/kris/thoughtmachine/service/persistence/TrainingUtil.java
+ com.liferay.kris.thoughtmachine.service.persistence.TrainingUtil
+com/liferay/kris/thoughtmachine/service/TrainingServiceUtil.java
+ com.liferay.kris.thoughtmachine.service.TrainingServiceUtil
+com/liferay/kris/thoughtmachine/service/TrainingServiceWrapper.java
+ com.liferay.kris.thoughtmachine.service.TrainingServiceWrapper
+com/liferay/kris/thoughtmachine/service/TrainingService.java
+ com.liferay.kris.thoughtmachine.service.TrainingService

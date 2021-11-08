@@ -1,0 +1,10 @@
+Bundle-Name: thoughtmachine-api
+Bundle-SymbolicName: com.liferay.kris.thoughtmachine.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.kris.thoughtmachine.exception,\
+	com.liferay.kris.thoughtmachine.model,\
+	com.liferay.kris.thoughtmachine.service,\
+	com.liferay.kris.thoughtmachine.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../thoughtmachine-service/service.xml
